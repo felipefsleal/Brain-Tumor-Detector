@@ -146,7 +146,7 @@ To interact with and execute the brain tumor detection model, follow these steps
 
 The model underwent a rigorous training process spanning 25 epochs, after which its performance was thoroughly evaluated on a dedicated test set. The results underscore the model's robust capabilities in accurately classifying brain MRI scans.
 
--   **Test Accuracy:** The model achieved a high test accuracy, demonstrating its strong generalization ability on unseen data. (Please replace `XX.XX%` with the actual final accuracy obtained from your model's evaluation).
+-   **Test Accuracy:** The model achieved a high test accuracy, demonstrating its strong generalization ability on unseen data. 96.72006102212052%
 -   **Optimizer:** The training utilized the Adam optimizer, configured with a learning rate of 1e-4, chosen for its efficiency and effectiveness in converging deep learning models.
 -   **Loss Function:** The Cross-Entropy Loss function was employed, which is ideally suited for multi-class classification tasks, providing a stable and accurate measure of prediction error.
 
