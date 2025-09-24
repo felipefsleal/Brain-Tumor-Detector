@@ -93,20 +93,35 @@ To replicate and run this project on your local machine, please follow these det
 
 Dataset Information section. Unzip the downloaded file and arrange the `Training` and `Testing` folders within a `Dataset` directory at the root level of your project. The expected directory structure is as follows:
     ```
+    
     ├── Dataset/
+    
     │   ├── Training/
+    
     │   │   ├── glioma_tumor/
+    
     │   │   ├── meningioma_tumor/
+    
     │   │   ├── pituitary_tumor/
+    
     │   │   └── no_tumor/
+    
     │   └── Testing/
+    
     │       ├── glioma_tumor/
+    
     │       ├── meningioma_tumor/
+    
     │       ├── pituitary_tumor/
+    
     │       └── no_tumor/
+    
     ├── your_notebook.ipynb  # Or your main Python script
+    
     ├── README.md
+    
     └── ...
+    
     ```
 
 ## How to Use
